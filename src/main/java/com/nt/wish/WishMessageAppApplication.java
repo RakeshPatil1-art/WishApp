@@ -16,6 +16,7 @@ public class WishMessageAppApplication {
 	@GetMapping("/wish")
 	public String wishApp() {
 		log.info("Application statrted...");
+		System.out.println("Wish App...");
 		return "Good Morning";
 	}
 
