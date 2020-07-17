@@ -14,7 +14,7 @@ public class WishMessageAppApplication {
 	public static Logger log = Logger.getLogger(WishMessageAppApplication.class.getName());
 
 	@GetMapping("/wish")
-	public String wishApp() {
+	public  wishApp() {
 		log.info("Application statrted...");
 		System.out.println("Wish App...");
 		return "Good Morning";
